@@ -33,7 +33,7 @@ Delete token.json from your working directory if created .
 
 Now run this file and You will see your email in terminals .
 
-##  If you want to change content or no. of email printed on terminal
+##  If you want to change  no. of emails to be printed on terminal
 You need to modify function listMessages . In this function we call 
 getMail(res.data.messages[0].id, auth) intstead you can change 0 to another value to see next email(here max value you 
 can put is 5  Read further if you want to know more about it ) .
